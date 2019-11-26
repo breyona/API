@@ -33,12 +33,18 @@ url=`https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/track.
 }
 
 function displayResults(json){
-    for(i=0; i<json.message.body.track_list.length; i++){
+    while (results.firstChild) {
+        results.removeChild(results.firstChild); 
+  
+    }
+    
+    for (i=0; i<json.message.body.track_list.length; i++){
         let h3=document.createElement("h3")
         h3.innerText=json.message.body.track_list[i].track.album_name
         let results=document.getElementById("results")
         results.appendChild(h3)
+        document.getElementById("results").innerHTML
+        
     console.log(json.message.body.track_list[i].track.album_name)}
     
 }
-

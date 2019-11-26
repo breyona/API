@@ -1,50 +1,65 @@
 body {
-    font-family: cursive;
-    background-image: url(https://images.unsplash.com/photo-1556196148-1fb724238998?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  font-family: cursive;
+  background-image: url(https://niuartplusmedia.files.wordpress.com/2014/11/boombox-done.gif);
+  background-size: cover;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .site{
-    display: inline block;
-    font-family: 'Arial Black', cursive;
-  }
+.site{
+  display: inline block;
+  font-family: 'Arial Black', cursive;
+}
 
-  .wrapper {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-  }
-  
-  .controls {
-    flex: 1;
-    padding: 10px;
-  }
-  
-  label {
-    color: purple;
-    font-family: cursive;
-  
-  }
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
 
-  h1 {
-    text-align: center;
-    color: purple;
-    font-family: cursive;
-  }
+.controls {
+  flex: 1;
+  padding: 10px;
+}
+
+label {
+  color: purple;
+  font-family: cursive;
+  font-size: 200%;
+  text-shadow: 2px 4px black;
+
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  font-family: cursive;
+  font-size: 500%;
+  text-shadow: 7px 4px black;
+}
+
+
+.submit:hover{
+  background-color:purple;
   
- 
-  .submit:hover{
-    background-color:purple;
-    
 }
 
 #results{
-  background-color: white;
- 
+background-color: black;
+color: yellow;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 20%;
+padding-left: 20%;
+border-top: 4px purple;
+border-bottom: 4px aqua;
+border-left: pink;
+border-right: green;
+border-style: dotted;
+border-width: 5px;
+
 }
 
  
